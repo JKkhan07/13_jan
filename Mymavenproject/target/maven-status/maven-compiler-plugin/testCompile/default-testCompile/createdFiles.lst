@@ -1,0 +1,16 @@
+Grouping\group1.class
+ParallelExecution\ParallelMethod.class
+DDT\ExcelOperation.class
+RunRetryAnalyzer\Test1.class
+WebPages\HomePage.class
+WebPages\LoginPage.class
+Retryfailed\RetryTest.class
+RunRetryAnalyzer\Transfomers.class
+RunRetryAnalyzer\RunRetry.class
+DataProvider\datapro.class
+Retryfailed\Retryfail.class
+SampleTest\ScreenShot.class
+DataProvider\datapro2.class
+Paramerization\parameter1.class
+ExReport\report1.class
+PageScripts\loginout.class

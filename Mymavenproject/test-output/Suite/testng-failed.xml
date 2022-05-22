@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="RunRetryAnalyzer.Test1">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- RunRetryAnalyzer.Test1 -->
+      <class name="DDT.ExcelOperation">
+        <methods>
+          <include name="performOpeartion"/>
+        </methods>
+      </class> <!-- DDT.ExcelOperation -->
+      <class name="Retryfailed.RetryTest">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- Retryfailed.RetryTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

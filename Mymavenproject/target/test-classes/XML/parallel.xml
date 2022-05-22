@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Parallel Excuetion" parallel = "method" thread-count="2">
+<test name = "Sanity test ">
+<classes>
+<class name = "ParallelExecution.ParallelMethod"/>
+</classes>
+</test>
+
+</suite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="RetryFailedTest" verbose="1">
+	<listeners>
+		<listener class-name="RunRetryAnalyzer.Transfomers" />
+	</listeners>
+	<test name="RetryMultiple">
+		<classes>
+			<class name="RunRetryAnalyzer.Test1" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RetryFailedTest]">
+  <listeners>
+    <listener class-name="RunRetryAnalyzer.Transfomers"/>
+  </listeners>
+  <test name="RetryMultiple(failed)">
+    <classes>
+      <class name="RunRetryAnalyzer.Test1">
+        <methods>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- RunRetryAnalyzer.Test1 -->
+    </classes>
+  </test> <!-- RetryMultiple(failed) -->
+</suite> <!-- Failed suite [RetryFailedTest] -->

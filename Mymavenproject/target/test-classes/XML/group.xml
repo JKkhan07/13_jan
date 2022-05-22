@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Sample suite ">
+	<test name="Testing">
+		<groups>
+			<run>
+				<exclude name="Smoke Test" />
+				<include name="sanity Test" />
+			</run>
+		</groups>
+		<classes>
+			<class name="Grouping.group1" />
+		</classes>
+	</test>
+</suite>
